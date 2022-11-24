@@ -1,0 +1,176 @@
+
+
+@font-face {
+    font-family: 'amblelight_condensed';
+    src: url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.eot');
+    src: url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.woff2') format('woff2'),
+         url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.woff') format('woff'),
+         url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.ttf') format('truetype'),
+         url('amble_lightcondensed_macroman/Amble-LightCondensed-webfont.svg#amblelight_condensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amblelight_condenseditalic';
+    src: url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.eot');
+    src: url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.woff2') format('woff2'),
+         url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.woff') format('woff'),
+         url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.ttf') format('truetype'),
+         url('amble_lightcondenseditalic_macroman/Amble-LightCondenseditalic-webfont.svg#amblelight_condensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (max-width: 576px){
+    section{
+        flex-direction: column;
+    }
+    header, nav ul{
+        flex-direction: column;
+       
+    }  
+    header h1{
+        background-color: #FEE9BF;
+        box-shadow: 15px 9px 9px #FFE6AE;
+    } 
+} 
+@media (min-width: 576px) and (max-width: 768px){
+    section{
+        flex-direction: column;
+    }
+    header, nav ul{
+        flex-direction: column;
+       
+    } 
+    header h1{
+        background-color: #FEE9BF;
+        box-shadow: 15px 9px 9px #FFE6AE;
+    }  
+} 
+@media (min-width: 768px) and (max-width: 992px){
+    section{
+        flex-direction: column;
+    }
+    header, nav ul{
+        flex-direction: column;
+       
+    } 
+    header h1{
+        background-color: #FEE9BF;
+        box-shadow: 15px 9px 9px #FFE6AE;
+    }  
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    header{
+        background-color: #FEE9BF;
+        box-shadow: 15px 9px 9px #FFE6AE;
+    }
+    nav ul li{
+        margin-right: 30px;
+    }
+    nav a{
+        padding-bottom: 15px;
+    }
+} 
+@media (min-width: 1200px){
+    header{
+        background-color: #FEE9BF;
+        box-shadow: 15px 9px 9px #FFE6AE;
+    }
+    nav ul li{
+        margin-right: 35px;
+    }
+    nav a{
+        padding-bottom: 15px;
+    }
+}
+body{
+    background-color: snow; 
+    font-family: 'amble_lightcondensed';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    text-align: left;
+    color: #343434;
+    font-family: 'amblelight_condenseditalic';
+    margin-left: 13px;
+    font-size: 2.181em;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    font-family: 'amblelight_condensed';
+
+}
+nav a{
+    font-size: 2.1em;
+    color: #343434;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom:  4.25px solid wheat;
+    box-shadow: 6px 0px 10px white;
+    font-family: 'amblelight_condenseditalic';
+}
+h2{
+    font-family: 'amblelight_condensed';
+    color: rgba(190, 0, 0, 0.582);
+    margin-left: 320px;
+    font-size:3em;
+    margin-top: 70px;
+}
+section{
+    margin-bottom: 20px;
+}
+article{
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    display: flex;
+}
+article #video_sdgs p{
+    margin-top: 70px;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
+
+article p{
+    font-family: 'amblelight_condensed';
+    font-size:x-large;
+    position: relative;
+}
+article h3{
+    font-family: 'amblelight_condensed';
+    font-size: xx-large;
+    color: rgba(1, 73, 11, 0.623);
+}
+article img div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+footer{
+    background-color: #FEE9BF;
+    box-shadow: 15px 9px 9px #FFE6AE;
+    margin-top: 90px;
+    font-family: 'Dayrom';
+    font-size: 1.1em;
+}
+footer a{
+    text-decoration: none;
+    background-color:peru;
+    border-radius: 7px;
+    color:white;
+}
